@@ -1,0 +1,157 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+    color: (28, 26, 53);
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+   }
+
+   #header {
+    background-color: #b3b3b3;
+    height: 50px;
+    line-height: 50px;
+    }
+
+#header a:hover {
+    color: rgb(42, 40, 68);
+    /*color: rgb(61, 61, 61);*/
+    }
+#header a{
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    
+}
+#header {
+    border-color:rgb(42, 40, 68);
+    border-width:4px;
+    border-bottom-style: solid;
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+#header h2{
+    text-align:left;
+    padding-left:20px;
+    margin-top:0px;
+}
+
+#header-title {
+    display: block;
+    float: left;
+}
+
+    #header-nav {
+    display: block;
+    float: right;
+    margin-top: 0px;
+   }
+
+   #header-nav li{
+       display: inline;
+       padding-left:20px;
+       padding-right:20px;
+   }
+
+#content{
+     /*background-image: url(G:\Workspace folder\Projektyszkola\1.jpg);*/
+     height: auto;
+     background-color: #b3b3b3;
+}
+
+#content-gallery{
+    /*background-image: url(G:\Workspace folder\Projektyszkola\1.jpg);*/
+    height: 750px;
+    background-color: #b3b3b3;
+}
+
+#footer{
+    background-color: #b3b3b3;
+    padding: auto;
+   }
+
+   div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .onas{
+    text-align: center;
+    max-width: 800px;
+    margin:0 auto;
+    padding: 60px 0;
+}
+
+.onas-content{ 
+    color: white;
+}
+
+.onas-title{
+    color:rgb(42, 40, 68);
+}
+
+.about-author img{
+    border-style:static;
+    border-width: 3px;
+    border-color:rgb(42, 40, 68);
+}
+.button {
+    background-color:  rgb(42, 40, 68);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .button a:hover {
+    color: rgb(42, 40, 68);
+  }
+  .logo{
+      text-align:center;
+      margin:0px;
+      padding-top:30px;
+  }
+
+  .column{
+      padding-left:70px;
+    min-width: 1600px;
+    display:inline-block;
+    vertical-align: top;
+}
+.column p{
+    color:white;
+}
+
+  .column2{
+    max-width: 1600px;
+    display:inline-block;
+    vertical-align: top;
+}
+
+.conteiner h4{
+    color:rgb(42, 40, 68);
+}
+
