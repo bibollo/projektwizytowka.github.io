@@ -70,22 +70,17 @@ body {
 
 #footer{
     background-color: #b3b3b3;
-    padding: auto;
    }
 
    div.gallery {
     margin: 5px;
-    border: 1px solid #ccc;
     float: left;
-    width: 180px;
+    width: 300px;
     
   }
   
-  div.gallery:hover {
-    border: 1px solid #777;
-  }
-  
   div.gallery img {
+      border: 3px rgb(42, 40, 68) solid;
     width: 100%;
     height: auto;
     padding-top: 30px;
@@ -112,9 +107,8 @@ body {
 }
 
 .about-author img{
-    border-style:static;
-    border-width: 3px;
-    border-color:rgb(42, 40, 68);
+    border: 3px solid rgb(42, 40, 68);
+    
 }
 .button {
     background-color:  rgb(42, 40, 68);
