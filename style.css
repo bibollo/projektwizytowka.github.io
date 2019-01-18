@@ -57,6 +57,7 @@ body {
    }
 
 #content{
+    min-width:1000px;
      /*background-image: url(G:\Workspace folder\Projektyszkola\1.jpg);*/
      height: auto;
      background-color: #b3b3b3;
