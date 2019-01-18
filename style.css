@@ -60,6 +60,10 @@ color:white;
        padding-right:20px;
    }
 
+   .onas a:hover{
+    color:  rgb(26, 25, 43);
+   }
+
 #content{
     margin: 0 auto;
     max-width: 1000px;
@@ -128,8 +132,8 @@ color:white;
     display: inline-block;
     font-size: 16px;
   }
-  .button a:hover {
-    color: rgb(42, 40, 68);
+  .button:hover{
+  background-color:rgb(24, 23, 39);
   }
   .logo{
       text-align:center;
@@ -157,3 +161,4 @@ color:white;
 .conteiner h4{
     color:rgb(42, 40, 68);
 }
+
