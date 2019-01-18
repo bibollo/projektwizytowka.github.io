@@ -1,10 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
+
+
 body {
     color: (28, 26, 53);
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
-    background-color: #b3b3b3;
+    background-color: #b3b3b3 ;
+  
+
    }
 
    #header {
@@ -28,9 +32,10 @@ color:white;
     
 }
 #header {
-    border-color:rgb(42, 40, 68);
+    background: linear-gradient(to bottom, rgb(42, 40, 68)0%, #b3b3b3 100%) !important;
+    /*border-color:rgb(42, 40, 68);
     border-width:4px;
-    border-bottom-style: solid;
+    border-bottom-style: solid;*/
     text-decoration: none;
     color:white;
     text-transform: uppercase;
@@ -67,20 +72,22 @@ color:white;
 #content{
     margin: 0 auto;
     max-width: 1000px;
-     /*background-image: url(G:\Workspace folder\Projektyszkola\1.jpg);*/
-     background-color: #b3b3b3;
+     
+    background-color: #b3b3b3;
+     
 }
 
 #content-gallery{
     /*background-image: url(G:\Workspace folder\Projektyszkola\1.jpg);*/
     height: 750px;
-    background-color: #b3b3b3;
+    background-color:#b3b3b3;
 }
 
 #footer{
-    border-top:rgb(42, 40, 68), 1px, solid;
+    
     padding: 50px 0 ;
-    background-color: #b3b3b3;
+    background: linear-gradient(to top, rgb(42, 40, 68)0%, #b3b3b3 100%) !important;
+   
    }
 
    div.gallery {
@@ -98,11 +105,6 @@ color:white;
     padding-top: 30px;
   }
   
-  div.desc {
-    padding: 15px;
-    text-align: center;
-  }
-
   .onas{
     text-align: center;
     max-width: 800px;
