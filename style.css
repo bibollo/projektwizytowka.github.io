@@ -5,15 +5,7 @@ body {
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
     background-color: #b3b3b3 ;
-  
-
    }
-
-   #header {
-    background-color: #b3b3b3;
-    height: 50px;
-    line-height: 50px;
-    }
     .aaktywny a:hover{
 color:white;
     }
@@ -38,6 +30,8 @@ color:white;
     color:white;
     text-transform: uppercase;
     letter-spacing: 0.1em;
+    height: 50px;
+    line-height: 50px;
 }
 
 #header h2{
